@@ -36,7 +36,7 @@
 
 function postProcessModulesFilter(module) {
     const projectRootPath = __dirname;
-    console.log("---" + JSON.stringify({path: module.path, type: module.output[0].type}))
+    // console.log("---" + JSON.stringify({path: module.path, type: module.output[0].type}))
     if (module['path'].indexOf('__prelude__') >= 0) {
         return false;
     }
