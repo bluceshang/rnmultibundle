@@ -19,7 +19,7 @@
     "crypto": "^1.0.1",
     "immutable": "^4.0.0-rc.12",
     "react": "16.6.1",
-    "react-native": "0.57.5"
+    "react-native": "0.70.3"
   },
   "devDependencies": {
     "@babel/runtime": "^7.12.5",
